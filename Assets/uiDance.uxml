@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-direction: column-reverse;">
+        <ui:VisualElement name="List" style="height: 481px; width: 832px; align-items: flex-end; justify-content: flex-end;">
+            <ui:Label text="Bob" display-tooltip-when-elided="true" name="Bob" style="font-size: 18px;" />
+            <ui:Label text="Tommy" display-tooltip-when-elided="true" name="Tommy" style="font-size: 18px;" />
+            <ui:Label text="Jane" display-tooltip-when-elided="true" name="Jane" style="font-size: 18px;" />
+            <ui:Label text="Bob" display-tooltip-when-elided="true" name="Bob" style="font-size: 18px;" />
+            <ui:Label text="Tommy" display-tooltip-when-elided="true" name="Tommy" style="font-size: 18px;" />
+            <ui:Label text="Jane" display-tooltip-when-elided="true" name="Jane" style="font-size: 18px;" />
+        </ui:VisualElement>
+        <ui:Label text="Label" display-tooltip-when-elided="true" style="align-items: auto; -unity-text-align: upper-left; justify-content: flex-start; position: absolute; width: 181px; bottom: -7px; height: 54px;" />
+        <ui:VisualElement name="Spacer" />
+    </ui:VisualElement>
+</ui:UXML>

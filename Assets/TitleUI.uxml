@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement" style="height: 336px; flex-direction: column; width: 591px; align-items: auto; justify-content: space-around;">
+        <ui:Label text="Triangle Bro" display-tooltip-when-elided="true" name="Label" style="height: 78px; width: 584px; -unity-text-align: middle-center; font-size: 25px;" />
+        <ui:Label text="Score: 0" display-tooltip-when-elided="true" name="score" style="white-space: normal; -unity-text-align: lower-center; height: 80px; width: 115px; justify-content: flex-end; font-size: 20px;" />
+        <ui:Button text="Plus Score" display-tooltip-when-elided="true" name="ChangeScore" style="white-space: normal; align-items: auto; -unity-text-align: lower-center; height: 30px; width: 110px;" />
+        <ui:Label text="Trina Dang" display-tooltip-when-elided="true" />
+    </ui:VisualElement>
+</ui:UXML>
